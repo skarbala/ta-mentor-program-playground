@@ -1,0 +1,22 @@
+{
+  "name": "mortgagecalculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skarbala/MortgageCalculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skarbala/MortgageCalculator/issues"
+  },
+  "homepage": "https://github.com/skarbala/MortgageCalculator#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.17.0"
+  }
+}

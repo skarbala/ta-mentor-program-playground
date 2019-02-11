@@ -1,0 +1,157 @@
+$color-primary: #822724;
+$color-primary-grey: #dca39e;
+$font-harry: 'Harry', serif;
+$font-primary: 'Lora', serif;
+@font-face {
+  font-family: 'Harry';
+  src: url('HARRYP__.TTF');
+}
+
+body {
+  background-color: $color-primary;
+}
+
+h1.title {
+  font-family: $font-harry;
+  font-size: 12em;
+  color: white;
+  margin-top: 20px;
+  text-shadow: 7px 7px 2px #671e1c;
+}
+
+div.form-group {
+  margin: 0 auto;
+}
+
+input.search {
+  outline: none;
+  border: none;
+  color: white;
+  font-family: $font-primary;
+  border-bottom: 1px solid $color-primary-grey;
+  background-color: $color-primary;
+  border-radius: 0;
+  font-size: 2em;
+  margin-bottom: 50px;
+  transition: all 200ms ease;
+  &:focus, &:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: $color-primary;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $color-primary-grey;
+    font-family: 'Kanit', serif;
+  }
+  &:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    font-family: 'Kanit', serif;
+  }
+}
+
+ul.spells {
+  list-style: none;
+  li {
+    padding: 10px;
+    color: $color-primary-grey;
+    font-family: $font-primary;
+    vertical-align: middle;
+    font-size: 2em;
+    transition: all 200ms ease-in-out;
+    div.inner {
+      padding: 10px;
+      cursor: pointer;
+    }
+    &:nth-child(1n+2) {
+      font-size: 1.3em;
+    }
+    &:nth-child(2n+3) {
+      font-size: 1.7em;
+    }
+    &:nth-child(3n) {
+      font-size: 2.2em;
+    }
+    &:hover {
+      color: #fffcf9
+    }
+  }
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: $color-primary;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .2s ease-in-out;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h2 {
+  margin: 0 auto;
+  color: white;
+  font-family: $font-harry;
+  font-size: 6em;
+}
+
+.modal-body {
+  margin: 20px 0;
+  color: white;
+  font-family: $font-primary;
+  h3{
+    margin-bottom:20px;
+  }
+  h4{
+    font-family: "Kanit", serif;
+    font-size: 1.5em;
+  }
+}
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.modal-default-button {
+  font-family: $font-harry;
+  font-size: 2em;
+  color: white;
+  background-color: transparent;
+  &:active, &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}

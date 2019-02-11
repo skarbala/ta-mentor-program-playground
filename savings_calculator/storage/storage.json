@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Handelsbanken Aktiv 100",
+    "risk": "High",
+    "interestRate": 5
+  },
+  {
+    "id": 2,
+    "name": "Hoggwart's Fund",
+    "risk": "Medium",
+    "interestRate": 3
+  },
+  {
+    "id": 2,
+    "name": "Fellowship investment group",
+    "risk": "High",
+    "interestRate": 15
+  },
+  {
+    "id": 4,
+    "name": "McDuck's safe",
+    "risk": "Low",
+    "interestRate": 0
+  },
+  {
+    "id": 5,
+    "name": "Batman's Cave Development",
+    "risk": "Medium",
+    "interestRate": 8
+  },
+  {
+    "id": 6,
+    "name": "Death Star real estate",
+    "risk": "High",
+    "interestRate": 20
+  },
+  {
+    "id": 7,
+    "name": "Tom & Jerry corp",
+    "risk": "Low",
+    "interestRate": 4
+  }
+]
+

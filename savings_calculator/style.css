@@ -1,0 +1,224 @@
+body {
+  background-color: #04192f;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+  font-family: "Russo One", sans-serif;
+  font-size: 4.1em;
+  text-shadow: 2px 2px #717171;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: "Exo", sans-serif;
+}
+
+.saving-list {
+  padding: 0;
+  list-style: none;
+}
+.saving-list li {
+  margin-bottom: 10px;
+}
+
+div.result {
+  margin-top: 20px;
+  text-align: center;
+}
+div.result div {
+  margin: 20px 0;
+}
+div.result div p {
+  font-family: "Russo One", sans-serif;
+  text-shadow: 2px 2px #717171;
+  margin: 0;
+  font-size: 2em;
+}
+div.result div span {
+  font-family: "Exo", sans-serif;
+}
+
+.error input {
+  background-color: #9a0000;
+  color: #fff;
+}
+
+div.saving-detail {
+  padding: 25px;
+  background-color: #04476f;
+  border-radius: 5px;
+  transition: all 200ms ease-in;
+}
+div.saving-detail p {
+  margin: 0;
+}
+div.saving-detail p.fund-description {
+  font-family: "Exo", sans-serif;
+  text-align: center;
+}
+div.saving-detail p.risk {
+  font-family: "Russo One", sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+div.saving-detail div.amounts span {
+  float: right;
+}
+div.saving-detail div.buttons {
+  text-align: left;
+  margin-top: 20px;
+}
+div.saving-detail div.buttons button {
+  padding: 0;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "Exo", sans-serif;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+div.saving-detail div.buttons button:focus, div.saving-detail div.buttons button:active {
+  outline: none;
+}
+div.saving-detail div.buttons button:active {
+  transform: translate(-2, -2);
+}
+div.saving-detail div.buttons button:hover {
+  color: #04192f;
+}
+div.saving-detail:hover {
+  background-color: #04669c;
+  cursor: pointer;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.bounce-enter-active {
+  animation: bounce-in 0.5s;
+}
+
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s ease-in;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: table;
+  transition: opacity 0.3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: #04476f;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all 0.2s ease-in-out;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h2 {
+  margin: 0 auto;
+  color: white;
+  font-size: 2em;
+}
+
+.modal-body {
+  margin: 20px 0;
+  color: white;
+}
+.modal-body p {
+  font-size: 1.2em;
+  font-family: "Exo", sans-serif;
+  text-align: left;
+}
+.modal-body span {
+  font-family: "Russo One", sans-serif;
+  float: right;
+}
+.modal-body hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #fff;
+  margin: 1em 0;
+  padding: 0;
+}
+.modal-body .modal-result p {
+  font-size: 1.5em;
+}
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.modal-default-button {
+  font-family: "Exo", sans-serif;
+  font-size: 2em;
+  color: white;
+  background-color: transparent;
+}
+.modal-default-button:active, .modal-default-button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.no-results {
+  text-align: center;
+  margin-top: 100px;
+}
+.no-results h3 {
+  font-family: "Russo One", sans-serif;
+}
+
+.recent-requests-header span {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
