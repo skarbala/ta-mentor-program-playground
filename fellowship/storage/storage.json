@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Frodo",
+    "surname": "Baggins",
+    "nickname": "",
+    "race": "Hobbit",
+    "age": 50,
+    "score": 4
+  },
+  {
+    "id": 2,
+    "name": "Samwise",
+    "surname": "Gamgee",
+    "nickname": "Sam",
+    "race": "Hobbit",
+    "age": 38,
+    "score": 5
+  },
+  {
+    "id": 3,
+    "name": "Gandalf",
+    "surname": "the Grey",
+    "nickname": "",
+    "race": "Istari",
+    "age": "primeval",
+    "score": 10
+  },
+  {
+    "id": 4,
+    "name": "Legolas",
+    "surname": "",
+    "nickname": "",
+    "race": "Elf",
+    "age": "500+",
+    "score": 7
+  },
+  {
+    "id": 5,
+    "name": "Gimli",
+    "surname": "",
+    "nickname": "",
+    "race": "Dwarf",
+    "age": "139",
+    "score": 6
+  },
+  {
+    "id": 6,
+    "name": "Aragorn",
+    "surname": "",
+    "nickname": "",
+    "race": "Man",
+    "age": "87",
+    "score": 4
+  },
+  {
+    "id": 7,
+    "name": "Boromir",
+    "surname": "",
+    "nickname": "",
+    "race": "Man",
+    "age": "40",
+    "score": 2
+  },
+  {
+    "id": 8,
+    "name": "Meriadoc",
+    "surname": "Brandybuck",
+    "nickname": "Merry",
+    "race": "Hobbit",
+    "age": "36",
+    "score": 3
+  },
+  {
+    "id": 9,
+    "name": "Peregrin",
+    "surname": "Took",
+    "nickname": "Pippin",
+    "race": "Hobbit",
+    "age": "28",
+    "score": 4
+  }
+]
+

@@ -43,18 +43,18 @@ const app = new Vue({
                 this.newSaving.fund &&
                 this.newSaving.oneTimeInvestment &&
                 this.newSaving.years &&
-                this.isEmailValid ==='success'
+                this.isEmailValid === 'success'
             );
         },
-        isEmailValid: function() {
-            return (this.newSaving.email == "")? "" : (this.reg.test(this.newSaving.email)) ? 'success' : 'error';
+        isEmailValid: function () {
+            return (this.newSaving.email == "") ? "" : (this.reg.test(this.newSaving.email)) ? 'success' : 'error';
         }
     },
 
 
     methods: {
         calculate: function () {
-            if (validate(this.newSaving) ) {
+            if (validate(this.newSaving)) {
                 this.newSaving.totalIncome = calculateFinalSaving(
                     this.newSaving.oneTimeInvestment,
                     this.newSaving.fund.interestRate,
@@ -95,6 +95,7 @@ const app = new Vue({
                 this.newSaving.email = '';
                 this.calculated = false;
                 this.saveAppliedSavings();
+
             }
 
         },
