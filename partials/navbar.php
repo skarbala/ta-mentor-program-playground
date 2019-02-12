@@ -2,7 +2,6 @@
 $navigation = [
     "savings calculator",
     "spelleology",
-    "fellowship"
 ];
 $current_page = basename($_SERVER['REQUEST_URI'], ".php");
 
